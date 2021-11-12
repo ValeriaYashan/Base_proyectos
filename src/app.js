@@ -24,6 +24,10 @@ app.use('/login',mainRouter);
 app.use('/register',mainRouter);
 
 
+/*ARREGLAR PARA QUE SEA EL ENTRY POINT*/
+/*app.listen(process.env.PORT || 3000, function() {
+    console.log(`Servidor corriendo en puerto 3000`);
+});*/
 
 
 // ************ exports app - ************
